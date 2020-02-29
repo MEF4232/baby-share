@@ -14,3 +14,8 @@ team members
 - cmp5987: Catie
 - sea2985: Savannah
 - mef4232: Molly
+
+tech stack
+- python with django for backend
+- design mockups on figma
+- html, css for front end
