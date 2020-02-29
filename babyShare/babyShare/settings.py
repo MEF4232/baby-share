@@ -72,12 +72,17 @@ WSGI_APPLICATION = 'babyShare.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
+# https://medium.com/@9cv9official/creating-a-django-web-application-with-a-postgresql-database-on-windows-c1eea38fe294
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
+	'default': {
+		'ENGINE': 'django.db.backends.postgresql_psycopg2',
+		'NAME': 'baby-share-db',
+		'USER': 'postgres',
+		'PASSWORD': 'admin',
+		'HOST': 'localhost',
+		'PORT': '5432',
+	}
 }
 
 
