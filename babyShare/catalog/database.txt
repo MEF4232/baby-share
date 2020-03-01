@@ -1,0 +1,18 @@
+short sleeve shirt<SEP>1000<SEP>125
+long sleeve shirt<SEP>1001<SEP>78
+jean shorts<SEP>1002<SEP>104
+long pants<SEP>1003<SEP>97
+long sleeve onesie<SEP>1004<SEP>340
+short sleeve onesie<SEP>1005<SEP>276
+socks<SEP>1006<SEP>4000
+sneakers<SEP>1007<SEP>23
+sandals<SEP>1008<SEP>44
+boots<SEP>1009<SEP>30
+hats<SEP>1010<SEP>27
+sun dresses<SEP>1011<SEP>62
+long sleeve dresses<SEP>1012<SEP>28
+one piece bathing suit<SEP>1013<SEP>51
+bathing suit shorts<SEP>1014<SEP>41
+winter jackets<SEP>1015<SEP>49
+rain jacket<SEP>1016<SEP>22
+mittens<SEP>1017<SEP>40
