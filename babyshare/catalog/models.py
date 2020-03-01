@@ -6,7 +6,7 @@ from django.urls import reverse  # Used to generate URLs by reversing the URL pa
 import uuid
 
 
-class User(models.Model):
+class Account(models.Model):
     """Model representing a user genre."""
     # FIELDS
     first_name = models.CharField(max_length=20, help_text="First Name", verbose_name="First Name", default="")
