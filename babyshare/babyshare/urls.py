@@ -1,5 +1,4 @@
 """babyshare URL Configuration
-
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.0/topics/http/urls/
 Examples:
@@ -14,7 +13,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+# from django.urls import path
 from django.urls import include
 from django.urls import path
 from django.views.generic import RedirectView
@@ -26,4 +25,4 @@ urlpatterns = [
     path('catalog/', include('catalog.urls')),
     path('', RedirectView.as_view(url='catalog/')),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
-
+# url('', views.homepageview, name='home')]
