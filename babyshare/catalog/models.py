@@ -36,7 +36,7 @@ class Subcategory(models.Model):
     name = models.CharField(max_length=200, help_text='Enter the item subcategory.')
     
     category = models.ManyToManyField(Category, help_text='Select a category for this item')
-    
+   
     def __str__(self):
         """String for representing the Model object."""
         return self.name
