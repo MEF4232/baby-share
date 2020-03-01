@@ -28,18 +28,18 @@ class Category(models.Model):
         """String for representing the Model object."""
         return self.name
 
-	# TODO Add to Item:
-	# category = models.ManyToManyField(Category, help_text='Select a category for this item')
+    # TODO Add to Item:
+    # category = models.ManyToManyField(Category, help_text='Select a category for this item')
 
 class Subcategory(models.Model):
     """Model representing the subcategory."""
     name = models.CharField(max_length=200, help_text='Enter the item subcategory.')
-	
-	category = models.ManyToManyField(Category, help_text='Select a category for this item')
-	
+    
+    category = models.ManyToManyField(Category, help_text='Select a category for this item')
+   
     def __str__(self):
         """String for representing the Model object."""
         return self.name
 
-	# TODO Add to Item:
-	# subcategory = models.ManyToManyField(Subcategory, help_text='Select a subcategory for this item')
+    # TODO Add to Item:
+    # subcategory = models.ManyToManyField(Subcategory, help_text='Select a subcategory for this item')
